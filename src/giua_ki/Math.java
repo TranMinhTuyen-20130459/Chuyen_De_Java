@@ -29,8 +29,28 @@ public class Math {
         System.out.println("b = " + b);
     }
 
+    static void cau3() {
+        /**
+         * Phép toán % trả về số dư của phép chia.
+         * Dấu của kết quả sẽ giống dấu của số bị chia (số được chia).
+         * */
+        int x = -8 % 5;
+        System.out.println("x = " + x);
+    }
+
+    static void cau4() {
+        /**
+         * Phép toán % trả về số dư của phép chia.
+         * Dấu của kết quả sẽ giống dấu của số bị chia (số được chia).
+         * */
+        int x = 7 % -4;
+        System.out.println("x = " + x);
+    }
+
     public static void main(String[] args) {
-        cau1();
+        // cau1();
         // cau2();
+        // cau3();
+        cau4();
     }
 }
