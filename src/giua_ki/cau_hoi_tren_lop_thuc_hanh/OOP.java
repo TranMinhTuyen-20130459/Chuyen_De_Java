@@ -1,6 +1,6 @@
-package giua_ki;
+package giua_ki.cau_hoi_tren_lop_thuc_hanh;
 
-import static giua_ki.OOP.A.y;
+import static giua_ki.cau_hoi_tren_lop_thuc_hanh.OOP.A.y;
 
 public class OOP {
 

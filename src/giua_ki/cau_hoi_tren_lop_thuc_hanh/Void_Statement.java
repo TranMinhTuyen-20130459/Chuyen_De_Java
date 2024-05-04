@@ -1,4 +1,4 @@
-package giua_ki;
+package giua_ki.cau_hoi_tren_lop_thuc_hanh;
 
 public class Void_Statement {
 
@@ -11,6 +11,7 @@ public class Void_Statement {
         } else {
             System.out.println("Not Empty");
         }
+        //=> Thông báo lỗi NullPointerException
     }
 
     /**
@@ -22,6 +23,7 @@ public class Void_Statement {
         } else {
             System.out.println("Not Empty");
         }
+        //=> In ra Empty
     }
 
     /**
@@ -38,12 +40,14 @@ public class Void_Statement {
         if ((b1 = false) | (b1 & b3) | (b1 | b2)) {
             System.out.println("Beta");
         }
+
+        //=> Không in ra gì cả
     }
 
     public static void main(String[] args) {
-        // cau1(null);
+        cau1(null);
         // cau2(null);
         // cau1("");
-        cau3();
+        // cau3();
     }
 }

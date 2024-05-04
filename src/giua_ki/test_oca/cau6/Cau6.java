@@ -11,6 +11,7 @@ public class Cau6 {
             System.out.print(x + " ");
             x--;
         }
+        //=> kết quả là 10 9 8 7 6 5 4 3 2 1
     }
 
     /**
@@ -22,6 +23,7 @@ public class Cau6 {
             System.out.print(x + " ");
             --x;
         }
+        //=> kết quả là 10 9 8 7 6 5 4 3 2 1
     }
 
     /**
@@ -33,7 +35,21 @@ public class Cau6 {
             --x;
             System.out.print(x + " ");
         }
+        //=> kết quả là 9 8 7 6 5 4 3 2 1 0
     }
+
+    /**
+     * Câu hỏi: Kết quả của đoạn code sau là gì?
+     */
+    static void testV4() {
+        int x = 10;
+        while (x > 0) {
+            x--;
+            System.out.print(x + " ");
+        }
+        //=> kết quả là 9 8 7 6 5 4 3 2 1 0
+    }
+
 
     public static void main(String[] args) {
         testV1();
@@ -41,5 +57,7 @@ public class Cau6 {
         testV2();
         System.out.println("\n----------------");
         testV3();
+        System.out.println("\n----------------");
+        testV4();
     }
 }
