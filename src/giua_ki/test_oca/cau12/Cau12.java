@@ -10,7 +10,16 @@ public class Cau12 {
         System.out.println("c= " + c);//=> kết quả là c= A
     }
 
+    /**
+     * Câu hỏi: Kết quả của đoạn code sau là gì?
+     */
+    static void testV2() {
+        int c = 65;
+        System.out.println("c= " + c);//=> kết quả là c= 65
+    }
+
     public static void main(String[] args) {
         testV1();
+        testV2();
     }
 }
