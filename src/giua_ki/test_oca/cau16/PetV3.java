@@ -17,6 +17,6 @@ public class PetV3 extends AnimalV3 {
     }
 
     public static void main(String[] args) {
-        new PetV3();
+        new PetV3(); //=> Kết quả in ra: AnimalPet
     }
 }
