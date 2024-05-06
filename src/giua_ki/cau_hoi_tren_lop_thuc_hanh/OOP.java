@@ -1,7 +1,5 @@
 package giua_ki.cau_hoi_tren_lop_thuc_hanh;
 
-import static giua_ki.cau_hoi_tren_lop_thuc_hanh.OOP.A.y;
-
 public class OOP {
 
     class A {
@@ -34,7 +32,7 @@ public class OOP {
 
     public static void main(String[] args) {
         var test = new OOP().new Test();
-        System.out.println(y);
+        System.out.println(A.y);
     }
 }
 
