@@ -12,13 +12,13 @@ class AnimalV2 {
 
 }
 
-public class PetV2 extends AnimalV3 {
+public class PetV2 extends AnimalV2 {
 
     public PetV2() {
         System.out.print("Pet");
     }
 
     public static void main(String[] args) {
-        new AnimalV3(5);
+        new AnimalV2(5);
     }
 }
