@@ -22,7 +22,7 @@ public class Cau37 {
      * b. [ORANGE , BANANA, COCONUT]
      * c. [COCONUT, BANANA, ORANGE]
      * d. [BANANA, COCONUT , ORANGE]
-     *
+     * <p>
      * Đáp án : a
      * Lý do:
      * + Trong Java, TreeSet là một cấu trúc dữ liệu dựa trên cây nhị phân tìm kiếm cân bằng.
@@ -61,8 +61,8 @@ public class Cau37 {
     }
 
     public static void main(String[] args) {
-        testV1(); //=> kết quả là: [BANANA, COCONUT, ORANGE]
-        testV2(); //=> kết quả là: [BANANA, COCONUT, ORANGE]
-        testV3(); //=> kết quả là: [BANANA, COCONUT, ORANGE]
+        testV1(); //=> kết quả là: [BANANA, ORANGE, COCONUT]
+        testV2(); //=> kết quả là: [BANANA, ORANGE, COCONUT]
+        testV3(); //=> kết quả là: [BANANA, ORANGE, COCONUT]
     }
 }
