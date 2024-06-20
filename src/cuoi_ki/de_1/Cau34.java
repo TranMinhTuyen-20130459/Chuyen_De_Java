@@ -8,6 +8,11 @@ public class Cau34 {
      * b. Các giá trị (values) trong map được phép là null
      * c. Các khóa (key) của map phải là duy nhất trừ trường hợp nó là null
      * d. Các khóa (key) của map phải là duy nhất kể cả trường hợp nó là null
+     *
+     * Đáp án: d
+     * Lý do: map chỉ có thể chứa một khóa null
      * */
+
+
 
 }
