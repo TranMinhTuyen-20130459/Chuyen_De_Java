@@ -18,6 +18,8 @@ public class Cau13 {
      * b. A a = (D) x;
      * c. A a = x;
      * d. C a = (C)(B)x;
+     *
+     * =>> Đáp án c
      */
 
     interface A {

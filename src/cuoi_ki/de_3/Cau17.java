@@ -24,5 +24,7 @@ public class Cau17 {
      * b. Một ngoại lệ được ném ra
      * c. 2
      * d. 1
+     *
+     * =>> Đáp án là a
      * */
 }

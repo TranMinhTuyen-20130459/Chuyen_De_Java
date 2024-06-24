@@ -14,5 +14,7 @@ public class Cau16 {
      * b. System.out.println(list[1]);
      * c. System.out.println(list[2]);
      * d. System.out.println(list.get(1));
+     *
+     * =>> Đáp án là d
      * */
 }

@@ -8,5 +8,7 @@ public class Cau11 {
      * b. Nếu các giá trị hashCode giống nhau, các đối tượng phải bằng nhau
      * c. Nếu các giá trị hashCode khác nhau, các đối tượng có thể bằng nhau.
      * d. Nếu các giá trị hashCode giống nhau, các đối tượng phải bằng nhau.
+     *
+     * ===> Đáp án: a
      * */
 }

@@ -23,6 +23,8 @@ public class Cau12 {
      * b. C D
      * c. C
      * d. B
+     *
+     * =>> Đáp án là a
      * */
 
 

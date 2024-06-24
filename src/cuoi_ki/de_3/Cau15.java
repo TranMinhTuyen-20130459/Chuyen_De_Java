@@ -11,5 +11,6 @@ public class Cau15 {
      * d. String[] cats = {"Fluffy", "Spot", "Zeus"};
      * e. int[][] scores1 = {2, 4, 5}, {9, 3, 2};
      *
+     * =>> Đáp án: e
      * */
 }
